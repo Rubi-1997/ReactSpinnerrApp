@@ -11,7 +11,7 @@ function App() {
         setShowLoader(true);
 
         setTimeout(() => {
-            fetch("https://reqres.in/api/users?per_page=10")
+            fetch("https://reqres.in/api/users?page=1")
                 .then((response) => response.json())
                 .then((user) => {
                     console.log(user.data);

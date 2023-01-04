@@ -5,8 +5,8 @@ const Navbar = ({getdata}) => {
   return (
     <div className='navbardiv'>
       <ul className='unorderList'>
-        <li><img src="./addidas2.png"></img></li>
-        <li><button onClick={getdata}>Get User Data</button></li>
+        <li><h1 className='brandname'>Facebook</h1></li>
+        <li><button onClick={getdata}>Get Users</button></li>
       </ul>
     </div>
   )

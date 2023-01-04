@@ -1,8 +1,8 @@
 .card{
     height: 30rem;
-    width: 20rem;
+    width: 18rem;
     box-shadow: 0px 1px 2px 4px #d3d3d3;
-    margin-top: 4rem;
+    margin-top: 6rem;
     background-color: white;
 }
 .card img{
@@ -10,9 +10,10 @@
     padding-top: 2rem;
 }
 .data{
+    margin-left: 25px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    font-family: fangsong;
 }
 .box-container{
     width: 33%;
